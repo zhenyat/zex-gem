@@ -1,0 +1,13 @@
+# List of available Dotcoms methods
+
+binance:
+  public:
+    methods:  aggTrades avgPrice depth exchangeInfo historicalTrades klines ping ticker tickers time trades
+  private:
+    methods:  balance candles order
+
+cexio:
+  public:
+    methods:  balance convert currency_limits last_price last_prices ohlcv order_book price_stats ticker tickers trade_history
+  private:
+    methods:  currency_limits balance candles last_price last_prices order
